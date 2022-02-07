@@ -29,4 +29,8 @@ Comment.belongsTo(Post, {
 	onDelete: 'SET NULL'
 });
 
-module.exports = { Post, Comment, User };
+module.exports = {
+	Post,
+	Comment,
+	User
+};
